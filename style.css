@@ -44,3 +44,68 @@ header > p > a {
 header > p > a:hover {
     text-decoration: underline;
 }
+
+main {
+    padding-top: 60px;
+    background-color: white;
+}
+
+main > p { 
+    color: black;
+    text-align: left;
+    margin-top: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: 900;
+    padding: 40px;
+}
+
+#imagem1 {
+    color: white;
+    background: white url(imagens/sunflower-and-ladybug-wallpaper-preview.jpg) scroll;
+    background-size: cover;
+    box-shadow: top black 5px 5px 5px;
+    
+    
+}
+
+#imagem2 {
+    color: white;
+    background: white url(imagens/OIP.jpeg) scroll;
+    background-size: cover;
+    box-shadow: top black 5px 5px 5px;
+}
+
+.fundop {
+    background-color: rgba(0, 0, 0, 0.311);
+    background-position: center center;
+    text-align: left;
+    margin-top: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: 900;
+    padding: 40px;
+    width: 500px;
+
+}
+
+footer {
+    background-color: black;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
